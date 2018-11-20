@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: IRB4600_40-255
+    relative_path: urdf/IRB4600_40-255.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/IRB4600_40-255.srdf
+  CONFIG:
+    author_name: Ryan DelGIzzi
+    author_email: ryan.delgizzi@stratom.com
+    generated_timestamp: 1542743174
