@@ -11,13 +11,13 @@
       </inertial>
       <collision name="collision">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/base_link.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_common/collision/base_link.stl"/>
         </geometry>
         <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/base_link.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_common/visual/base_link.stl"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow">
@@ -32,13 +32,13 @@
       </inertial>
       <collision name="collision">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/collision/link_1.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_common/collision/link_1.stl"/>
         </geometry>
         <xacro:material_abb_white/>
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh filename="package://abb_irb4600_support/meshes/irb4600_40_255/visual/link_1.stl"/>
+          <mesh filename="package://abb_irb4600_support/meshes/irb4600_common/visual/link_1.stl"/>
         </geometry>
         <xacro:material_abb_white/>
         <material name="yellow"/>
